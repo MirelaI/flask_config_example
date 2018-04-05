@@ -42,7 +42,9 @@ Using your preffered editor(Sublime, Atom, or any other) edit the config.json fi
 }
 
 ```
-In the example above, "..." part means there can be other config values there and it's not necessary to be only API keys.
+In the example above, `...` part means there can be other config values there and it's not necessary to be only API keys.
+
+You can see an example of a config file in `config_example.json` present in this repostiory.
 
 ### Use config.json with Flask
 
@@ -106,4 +108,6 @@ git push origin master
 ```
 
 Note: it can be the same secret key for your apps, if you work in a group. But please make sure the person who knows the keys shares them with the group via other methods than Github. Point in your README, that in order to get the secret key please contact 'Name of the colleague who is responsible of the keys'.
+
+Please let me know if you have any questions!
 
