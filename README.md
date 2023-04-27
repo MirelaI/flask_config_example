@@ -83,7 +83,7 @@ git status
 ```
 You should see something similar to:
 ```
-On branch master
+On branch main
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
@@ -104,7 +104,7 @@ touch README.md
 # Add instructions to README.md
 git add .
 git commit -am "Setup for my application to work with config files"
-git push origin master
+git push origin main
 ```
 
 Note: it can be the same secret key for your apps, if you work in a group. But please make sure the person who knows the keys shares them with the group via other methods than Github. Point in your README, that in order to get the secret key please contact 'Name of the colleague who is responsible of the keys'.
